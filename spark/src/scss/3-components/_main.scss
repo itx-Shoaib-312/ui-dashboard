@@ -1,0 +1,14 @@
+.main {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 0;
+  transition: $sidebar-transition;
+  display: flex;
+  flex-direction: column;
+
+  @include media-breakpoint-down(md) {
+    overflow-y: hidden;
+    width: 100vw;
+    min-width: 100vw;
+  }
+}

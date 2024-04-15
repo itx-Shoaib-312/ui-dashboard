@@ -1,0 +1,52 @@
+// Theme colors
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+// Body
+$body-bg: #f4f7fc;
+
+// Sidebar brand
+$sidebar-brand-bg: $white;
+$sidebar-brand-color: $gray-900;
+
+// Splash
+$splash-bg: #f4f7fc;
+
+// Wrapper
+$wrapper-bg: #f4f7fc;
+
+// Header
+$header-color: $gray-900;
+
+// Breadcrumb
+$breadcrumb-color: $gray-600;
+$breadcrumb-active-color: $gray-800;
+
+// Navbar
+$navbar-padding-y: 0;
+$navbar-theme-color:                rgba($black, .5);
+$navbar-theme-hover-color:          rgba($black, .7);
+$navbar-theme-active-color:         rgba($black, .9);
+$navbar-theme-disabled-color:       rgba($black, .3);
+$navbar-theme-toggler-icon-bg:      str-replace(url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{$navbar-theme-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), "#", "%23");
+$navbar-theme-toggler-border-color: rgba($black, .1);
+$navbar-theme-brand-color:          $navbar-theme-active-color;
+$navbar-theme-brand-hover-color: 	  $navbar-theme-active-color;
+
+// Form control lite
+$form-control-lite-color: $black;
+
+// Hamburger
+$hamburger-color: $black;
+
+// Splash
+$splash-color: $gray-300;

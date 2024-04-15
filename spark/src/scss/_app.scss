@@ -1,0 +1,92 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500&display=swap');
+@import url('https://indestructibletype.com/fonts/Jost.css');
+
+// Theme variables
+@import "1-variables/app";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Theme mixins
+@import "2-mixins/background";
+@import "2-mixins/button";
+@import "2-mixins/modal";
+@import "2-mixins/placeholder";
+@import "2-mixins/switch";
+@import "2-mixins/tabs";
+@import "2-mixins/wizard";
+
+// Theme components
+@import "3-components/accordion";
+@import "3-components/alert";
+@import "3-components/avatar";
+@import "3-components/badge";
+@import "3-components/breadcrumb";
+@import "3-components/buttons";
+@import "3-components/card";
+@import "3-components/chart";
+@import "3-components/chat";
+@import "3-components/collapse";
+@import "3-components/content";
+@import "3-components/dropdown";
+@import "3-components/feather";
+@import "3-components/footer";
+@import "3-components/forms";
+@import "3-components/grid";
+@import "3-components/hamburger";
+@import "3-components/header";
+@import "3-components/icon";
+@import "3-components/landing";
+@import "3-components/main";
+@import "3-components/modal";
+@import "3-components/nav";
+@import "3-components/navbar";
+@import "3-components/reboot";
+@import "3-components/sidebar";
+@import "3-components/splash";
+@import "3-components/tables";
+@import "3-components/tabs";
+@import "3-components/type";
+@import "3-components/wrapper";
+@import "3-components/wizard";
+
+// Theme utilities
+@import "4-utilities/background";
+@import "4-utilities/cursors";
+@import "4-utilities/overflow";
+@import "4-utilities/position";
+@import "4-utilities/sizing";
+
+// 3rd party plugins
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~apexcharts/src/assets/apexcharts";
+@import "~bootstrap-daterangepicker/daterangepicker";
+@import "~datatables.net-bs5/css/dataTables.bootstrap5";
+@import "~datatables.net-buttons-bs5/css/buttons.bootstrap5";
+@import "~datatables.net-fixedheader-bs5/css/fixedHeader.bootstrap5";
+@import "~datatables.net-responsive-bs5/css/responsive.bootstrap5";
+@import "~dragula/dist/dragula";
+@import "~fullcalendar/main";
+@import "~ionicons/dist/scss/ionicons";
+@import "~jsvectormap/dist/css/jsvectormap";
+@import "~quill/dist/quill.bubble";
+@import "~quill/dist/quill.snow";
+@import "~select2/src/scss/core";
+@import "~smartwizard/dist/css/smart_wizard_all";
+@import "~tempusdominus-bootstrap-4/src/sass/tempusdominus-bootstrap-4";
+@import "~toastr/toastr";
+
+// 3rd party plugin styles
+@import "5-vendor/datatables-select";
+@import "5-vendor/datetimepicker";
+@import "5-vendor/fullcalendar";
+@import "5-vendor/highlight";
+@import "5-vendor/ion-icons";
+@import "5-vendor/quill";
+@import "5-vendor/select2";
+@import "5-vendor/toastr";
+@import "5-vendor/smartwizard";

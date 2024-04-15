@@ -1,0 +1,43 @@
+.hamburger,
+.hamburger:before,
+.hamburger:after {
+  cursor: pointer;
+  height: 2px;
+  width: 20px;
+  background: rgba($hamburger-color, .75);
+  display: block;
+  content: '';
+  transition: $transition-appearance-fast;
+}
+
+.hamburger {
+  position: relative;
+}
+
+.hamburger:before {
+  top: -6.5px;
+  width: 20px;
+  position: absolute;
+}
+
+.hamburger:after {
+  bottom: -6.5px;
+  width: 20px;
+  position: absolute;
+}
+
+.sidebar-toggle:hover {
+  .hamburger,
+  .hamburger:before,
+  .hamburger:after {
+    background: $hamburger-color;
+  }
+}
+
+.hamburger-right {
+  &,
+  &:before,
+  &:after {
+    right: 0;
+  }
+}

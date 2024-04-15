@@ -1,0 +1,14 @@
+.header {
+    position: relative;
+    margin-bottom: ($spacer * 3);
+}
+
+.header-title {
+    font-size: $h2-font-size;
+    color: $header-color;
+}
+
+.header-subtitle {
+    font-size: $h5-font-size;
+    color: $header-color;
+}

@@ -1,0 +1,205 @@
+// Inherited from https://github.com/techlab/jquery-smartwizard/blob/master/dist/css/smart_wizard_all.css
+
+.sw > .nav .nav-link.disabled {
+  color: $gray-400 !important;
+}
+
+.sw.sw-dark {
+  color: rgba($white, 0.95);
+  background: $black;
+}
+
+.sw.sw-loading::after {
+  background: rgba($white, 0.7);
+}
+
+.sw.sw-loading::before {
+  border-color: $gray-100;
+  border-top-color: $primary;
+}
+
+.sw-theme-default {
+  border-color: $gray-200;
+}
+
+.sw-theme-default .toolbar > .btn {
+  color: $white;
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.sw-theme-default > .nav .nav-link::after {
+  background: $gray-500;
+}
+
+.sw-theme-default > .nav .nav-link.inactive {
+  color: $gray-500;
+}
+
+.sw-theme-default > .nav .nav-link.active {
+  color: $primary !important;
+}
+
+.sw-theme-default > .nav .nav-link.active::after {
+  background: $primary !important;
+}
+
+.sw-theme-default > .nav .nav-link.done {
+  color: $success !important;
+}
+
+.sw-theme-default > .nav .nav-link.done::after {
+  background: $success;
+}
+
+.sw-theme-default > .nav .nav-link.disabled {
+  color: $gray-300 !important;
+}
+
+.sw-theme-default > .nav .nav-link.disabled::after {
+  background: $gray-300;
+}
+
+.sw-theme-default > .nav .nav-link.danger {
+  color: $danger !important;
+}
+
+.sw-theme-default > .nav .nav-link.danger::after {
+  background: $danger;
+}
+
+.sw-theme-arrows {
+  border: 1px solid $gray-200;
+}
+
+.sw-theme-arrows .toolbar > .btn {
+  color: $white;
+  background-color: $primary;
+  border: 1px solid $primary;
+}
+
+.sw-theme-arrows > .nav {
+  border-bottom-color: $gray-200;
+}
+
+.sw-theme-arrows > .nav .nav-link::after {
+  border-left-color: $gray-100;
+}
+
+.sw-theme-arrows > .nav .nav-link::before {
+  border-left-color: $gray-200;
+}
+
+.sw-theme-arrows > .nav .nav-link.inactive {
+  color: $gray-500;
+  border-color: $gray-100;
+  background: $gray-100;
+}
+
+.sw-theme-arrows > .nav .nav-link.active {
+  color: $white;
+  border-color: $primary;
+  background: $primary;
+}
+
+.sw-theme-arrows > .nav .nav-link.active::after {
+  border-left-color: $primary;
+}
+
+.sw-theme-arrows > .nav .nav-link.done {
+  color: $white;
+  border-color: $success;
+  background: $success;
+}
+
+.sw-theme-arrows > .nav .nav-link.done::after {
+  border-left-color: $success;
+}
+
+.sw-theme-arrows > .nav .nav-link.disabled {
+  color: $gray-200;
+  border-color: $gray-100;
+  background: $gray-100;
+}
+
+.sw-theme-arrows > .nav .nav-link.disabled::after {
+  border-left-color: $gray-100;
+}
+
+.sw-theme-arrows > .nav .nav-link.danger {
+  color: $white;
+  border-color: $danger;
+  background: $danger;
+  cursor: pointer;
+}
+
+.sw-theme-arrows > .nav .nav-link.danger::after {
+  border-left-color: $danger;
+}
+
+.sw-theme-arrows.sw-dark {
+  color: rgba($white, 0.95);
+  background: $black;
+}
+
+.sw-theme-arrows.sw-dark > .nav {
+  border-bottom-color: $gray-600;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link::after {
+  border-left-color: $gray-600;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link::before {
+  border-left-color: $gray-600;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.inactive {
+  color: $white;
+  border-color: $gray-600;
+  background: $gray-600;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.inactive::after {
+  border-left-color: $gray-600;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.active {
+  color: $white;
+  border-color: $gray-800;
+  background: $gray-700;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.active::after {
+  border-left-color: $gray-700;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.done {
+  color: $white;
+  border-color: $black;
+  background: $black;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.done::after {
+  border-left-color: $black;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.disabled {
+  color: $gray-600 !important;
+  border-color: $gray-100;
+  background: $gray-700;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.disabled::after {
+  border-left-color: $gray-700;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.danger {
+  color: $white;
+  border-color: $danger;
+  background: $danger;
+}
+
+.sw-theme-arrows.sw-dark > .nav .nav-link.danger::after {
+  border-left-color: $danger;
+}

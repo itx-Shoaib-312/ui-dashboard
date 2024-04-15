@@ -1,0 +1,18 @@
+.form-control-lite {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  color: $form-control-lite-color;
+
+  @include placeholder {
+    color: rgba($form-control-lite-color, .5);
+  }
+
+  &:focus {
+    box-shadow: none;
+    outline: 0;
+    background: transparent;
+    color: $form-control-lite-color;
+  }
+}

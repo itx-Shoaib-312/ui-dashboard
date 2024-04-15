@@ -1,0 +1,11 @@
+.footer {
+  padding: $spacer ($spacer * 0.5);
+
+  @include media-breakpoint-up(lg) {
+    padding: $spacer ($spacer * 1.5);
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,43 @@
+.landing-features-icon {
+  width: 42px;
+  height: 42px;
+  color: darken($primary, 5%);
+}
+
+.landing-bg {
+  background: linear-gradient(90deg,darken($dark, 10), lighten($dark, 10));
+}
+
+.landing-text {
+  color: rgba($white, .75);
+}
+
+.landing-icon {
+  align-items: center;
+  background: lighten($primary, 40%);
+  border-radius: 50%;
+  justify-content: center;
+  margin-right: 1rem;
+  display: flex;
+  height: 56px;
+  width: 56px;
+
+  svg {
+    width: 28px;
+    height: 28px;
+    color: $primary;
+  }
+}
+
+.landing-stars {
+  color: $yellow;
+}
+
+.landing-nav {
+  box-shadow: 0 0 2.5rem 0 rgba($black, .075);
+}
+
+.landing-img {
+  box-shadow: 0 0 3rem rgba(darken($primary, 25), 0.075);
+  border: 1px solid rgba($black, 0.075);
+}

@@ -1,0 +1,43 @@
+// Theme colors
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$blue:    #5C59ED;
+$indigo:  #3f51b5;
+$purple:  #a877b5;
+$pink:    #e91e63;
+$red:     #F26666;
+$orange:  #ff9800;
+$yellow:  #F2B51D;
+$green:   #38C485;
+$teal:    #009688;
+$cyan: #00bcd4;
+
+$primary:       $green;
+$secondary:     $blue;
+$tertiary:      $green;
+$success:       $purple;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          #203A45;
+
+// Sidebar brand
+$sidebar-brand-bg: $dark;
+$sidebar-brand-icon-color: $green;
+
+// Splash
+$splash-bg: $dark;
+
+// Wrapper
+$wrapper-bg: $dark;

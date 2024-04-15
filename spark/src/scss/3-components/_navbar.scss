@@ -1,0 +1,140 @@
+.navbar-expand > .container,
+.navbar-expand > .container-fluid,
+.navbar-expand > .container-lg,
+.navbar-expand > .container-md,
+.navbar-expand > .container-sm,
+.navbar-expand > .container-xl {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar .nav-item {
+  line-height: 3rem;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:focus {
+    outline: 0;
+  }
+
+  .dropdown-menu {
+    line-height: $line-height-base;
+  }
+
+  .nav-link {
+    font-weight: $font-weight-bold;
+
+    .fas,
+    .far,
+    .fal,
+    .fab {
+      font-size: 1.125rem;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .navbar {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .dropdown,
+  .dropleft,
+  .dropright,
+  .dropup {
+    position: inherit;
+  }
+
+  .navbar-expand .navbar-nav .dropdown-menu-lg {
+    min-width: 100%;
+  }
+}
+
+.navbar-brand {
+  svg {
+    width: 32px;
+    height: 32px;
+    fill: lighten($primary, 5%);
+  }
+}
+
+.navbar-theme {
+  .navbar-brand {
+    color: $navbar-theme-brand-color;
+
+    &:hover {
+      color: $navbar-theme-brand-hover-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-theme-color;
+
+      &:hover {
+        color: $navbar-theme-hover-color;
+      }
+
+      &.disabled {
+        color: $navbar-theme-disabled-color;
+      }
+    }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      color: $navbar-theme-active-color;
+    }
+  }
+
+  .navbar-toggler {
+    color: $navbar-theme-color;
+    border-color: $navbar-theme-toggler-border-color;
+  }
+
+  .navbar-toggler-icon {
+    background-image: $navbar-theme-toggler-icon-bg;
+  }
+
+  .navbar-text {
+    color: $navbar-theme-color;
+    a {
+      color: $navbar-theme-active-color;
+
+      &:hover {
+        color: $navbar-theme-active-color;
+      }
+    }
+  }
+}
+
+.nav-item {
+  .indicator {
+    background: $warning;
+    box-shadow: $box-shadow;
+    border-radius: 50%;
+    display: block;
+    height: 9px;
+    width: 9px;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    transition: top .1s ease-out;
+  }
+
+  &:hover .indicator {
+    top: 15px;
+  }
+
+  a:focus {
+    outline: 0;
+  }
+}

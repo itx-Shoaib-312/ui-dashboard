@@ -1,0 +1,383 @@
+// Fonts
+$font-family-sans-serif: "Hind Vadodara", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 500 !default;
+$font-size-base: .9375rem !default;
+$font-size-lg: 1.125rem !default;
+$font-size-sm: .75rem !default;
+$headings-font-weight: 500 !default;
+$lead-font-weight: 400 !default;
+$small-font-size: 80% !default;
+
+// Spacer
+$spacer: 1rem !default;
+
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 4.5),
+  7: ($spacer * 6)
+) !default;
+
+// Grid
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+) !default;
+
+$grid-gutter-width: ($spacer *	1.5) !default;
+
+// Container
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1200px
+) !default;
+
+$container-padding-x: .75rem !default;
+
+// Transitions
+$transition-slow: all .6s ease-in-out !default;
+$transition-base: all .4s ease-in-out !default;
+$transition-fast: all .15s ease-in-out !default;
+
+// Theme colors
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue:    #3B7DDD !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$primary:       $blue !default;
+$secondary:     $purple !default;
+$tertiary:      lighten($primary, 10%) !default;
+$success:       $green !default;
+$info:          $teal !default;
+$warning:       $orange !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          darken($blue, 27.5%) !default;
+
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"tertiary": $tertiary,
+	"success": $success,
+	"info": $info,
+	"warning": $warning,
+	"danger": $danger,
+	"light": $light,
+	"dark": $dark
+) !default;
+
+// Social colors
+$social-colors: (
+	"facebook": #3b5998,
+	"twitter": #1da1f2,
+	"google": #dc4e41,
+	"youtube": #f00,
+	"vimeo": #1ab7ea,
+	"dribbble": #ea4c89,
+	"github": #181717,
+	"instagram": #e4405f,
+	"pinterest": #bd081c,
+	"flickr": #0063dc,
+	"bitbucket": #0052cc
+) !default;
+
+// Options
+$enable-rfs: false !default;
+$enable-negative-margins: true !default;
+$enable-dark-mode: false !default;
+
+// Body
+$body-bg: #f4f7fc !default;
+$body-color: #3e4676 !default;
+
+// Links
+$link-decoration: none !default;
+$link-hover-decoration: underline !default;
+
+// Common
+$border-width: 1px !default;
+
+// Fonts
+$line-height-base: 1.5 !default;
+$line-height-lg: 1.5 !default;
+$line-height-sm: 1.5 !default;
+
+// Headings
+$h1-font-size: $font-size-base * 2 !default;
+$h2-font-size: $font-size-base * 1.75 !default;
+$h3-font-size: $font-size-base * 1.5 !default;
+$h4-font-size: $font-size-base * 1.25 !default;
+$h5-font-size: $font-size-base !default;
+$h6-font-size: $font-size-base !default;
+$headings-color: #203A45 !default;
+
+// Displays
+$display-font-sizes: (
+	1: 4rem,
+  2: 3.5rem,
+  3: 3rem,
+  4: 2.5rem,
+  5: 2rem,
+  6: 1.5rem
+	) !default;
+
+// Shadows
+$box-shadow-sm:       0 0 1rem 0 rgba(0, 0, 0, .05) !default;
+$box-shadow:          0 0 2rem 0 rgba(0, 0, 0, .05) !default;
+$box-shadow-lg:       0 0 4rem 0 rgba(0, 0, 0, .05) !default;
+
+// Border radius
+$border-radius-sm: .1rem !default;
+$border-radius:    .2rem !default;
+$border-radius-lg: .3rem !default;
+
+// Navbar
+$navbar-padding-y: 0 !default;
+$navbar-padding-x: $spacer !default;
+$navbar-theme-color:                 rgba($white, .75) !default;
+$navbar-theme-hover-color:           $white !default;
+$navbar-theme-active-color:          $white !default;
+$navbar-theme-disabled-color:        rgba($white, .5) !default;
+$navbar-theme-toggler-icon-bg:       str-replace(url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{$navbar-theme-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), "#", "%23") !default;
+$navbar-theme-toggler-border-color:  rgba($white, .1) !default;
+$navbar-theme-brand-color:           $navbar-theme-active-color !default;
+$navbar-theme-brand-hover-color: 		 $navbar-theme-active-color !default;
+
+// Alerts
+$alert-padding-y: .95rem !default;
+$alert-padding-x: .95rem !default;
+$alert-border-width: 0 !default;
+
+// List group
+$list-group-bg: $white !default;
+$list-group-item-padding-y: .75rem !default;
+$list-group-item-padding-x: 1.25rem !default;
+
+// Forms
+$input-bg: $white !default;
+$input-disabled-bg: $gray-200 !default;
+$input-color: $gray-700 !default;
+$input-btn-border-width: $border-width !default;
+$input-btn-line-height: $line-height-base !default;
+$input-btn-line-height-sm:    $line-height-sm !default;
+$input-btn-line-height-lg: $line-height-lg !default;
+$input-btn-focus-width: .2rem !default;
+$input-btn-padding-y: .25rem !default;
+$input-btn-padding-y-sm: .15rem !default;
+$input-btn-padding-y-lg: .35rem !default;
+$input-btn-padding-x: .7rem !default;
+$input-border-width: $input-btn-border-width !default;
+$input-height-border: $input-border-width * 2 !default;
+$input-height-inner: ($font-size-base * $input-btn-line-height) + ($input-btn-padding-y * 2) !default;
+$input-height: calc(#{$input-height-inner} + #{$input-height-border}) !default;
+$input-height-inner-sm: ($font-size-sm * $input-btn-line-height-sm) + ($input-btn-padding-y-sm * 2) !default;
+$input-height-sm: calc(#{$input-height-inner-sm} + #{$input-height-border}) !default;
+$input-height-inner-lg: ($font-size-lg * $input-btn-line-height-lg) + ($input-btn-padding-y-lg * 2) !default;
+$input-height-lg: calc(#{$input-height-inner-lg} + #{$input-height-border}) !default;
+
+// Form control lite
+$form-control-lite-color: $white !default;
+
+// Hamburger
+$hamburger-color: $white !default;
+
+// Dropdowns
+$dropdown-link-color: $gray-700 !default;
+$dropdown-link-hover-bg: $gray-100 !default;
+$dropdown-item-padding-y: .35rem !default;
+$dropdown-item-padding-x: 1.5rem !default;
+
+// Cards
+$card-bg: $white !default;
+$card-border-width: 0px !default;
+$card-border-radius: $border-radius !default;
+$card-shadow: 0 2px 4px rgba(126,142,177,.12) !default;
+$card-cap-bg: $white !default;
+$card-spacer-y: 1.25rem !default;
+$card-spacer-x: 1.25rem !default;
+$card-cap-padding-y: 0.75rem !default;
+$card-cap-padding-x: $card-spacer-x !default;
+
+// Tables
+$table-bg: transparent !default;
+$table-cell-padding-y: .75rem !default;
+$table-cell-padding-x: .75rem !default;
+$table-cell-padding-y-sm: .3rem !default;
+$table-cell-padding-x-sm: .3rem !default;
+$table-striped-bg: $gray-100 !default;
+
+// Transitions
+$transition-appearance: background .4s ease-in-out, color .4s ease-in-out !default;
+$transition-appearance-slow: background .6s ease-in-out, color .6s ease-in-out !default;
+$transition-appearance-fast: background .1s ease-in-out, color .1s ease-in-out !default;
+
+// Modals
+$modal-content-bg: $white !default;
+$modal-content-border-width: 0 !default;
+$modal-header-border-width: 1px !default;
+$modal-footer-border-width: 1px !default;
+$modal-xl: 1140px !default;
+$modal-lg: 900px !default;
+$modal-md: 600px !default;
+$modal-sm: 400px !default;
+$modal-transition: transform .25s ease-out !default;
+
+// Tabs
+$tab-content-padding: $spacer * 1.25 !default;
+$tab-content-box-shadow: 0 0.2rem 0.1rem -0.1rem rgba(0,0,0,0.15) !default;
+$tab-content-border-radius: 0 0 $border-radius $border-radius !default;
+$tab-link-color: $gray-800 !default;
+$tab-link-padding: ($spacer * 0.75) $spacer !default;
+$tab-link-bg: transparent !default;
+$tab-link-active-color: $gray-800 !default;
+$tab-link-active-bg: $white !default;
+
+// Badges
+$badge-font-size: 80% !default;
+$badge-padding-y: .3em !default;
+$badge-padding-x: .45em !default;
+$badge-pill-padding-x: .65em !default;
+
+// Pagination
+$pagination-padding-y: .3rem !default;
+$pagination-padding-x: .75rem !default;
+$pagination-padding-y-sm: .15rem !default;
+$pagination-padding-x-sm: .5rem !default;
+$pagination-padding-y-lg: .35rem !default;
+$pagination-padding-x-lg: 1rem !default;
+$pagination-bg: $white !default;
+$pagination-color: $gray-600 !default;
+$pagination-hover-color: $gray-800 !default;
+
+// Breadcrumbs
+$breadcrumb-padding-y:              0rem !default;
+$breadcrumb-padding-x:              0rem !default;
+$breadcrumb-item-padding:           .5rem !default;
+$breadcrumb-margin-bottom:          1rem !default;
+$breadcrumb-bg:                     transparent !default;
+$breadcrumb-divider-color:          $gray-400 !default;
+$breadcrumb-active-color:           $white !default;
+$breadcrumb-divider:                quote("/") !default;
+$breadcrumb-border-radius:          null !default;
+$breadcrumb-color:                  $gray-300 !default;
+
+$offcanvas-bg-color: $white !default;
+
+// Datetimepicker
+$bs-datetimepicker-active-bg: $primary !default;
+
+// Sidebar general
+$sidebar-width: 250px !default;
+$sidebar-transition: margin-left .3s ease-in-out, left .3s ease-in-out, margin-right .3s ease-in-out, right .3s ease-in-out !default;
+$sidebar-bg: transparent !default;
+$sidebar-border: 0 !default;
+$sidebar-shadow: $box-shadow !default;
+
+// Sidebar brand
+$sidebar-brand-padding: 1rem !default;
+$sidebar-brand-font-weight: 500 !default;
+$sidebar-brand-font-size: 1.175rem !default;
+$sidebar-brand-color: $white !default;
+$sidebar-brand-bg: $dark !default;
+$sidebar-brand-icon-color: lighten($primary, 7.5) !default;
+
+// Sidebar content
+$sidebar-content-bg: $white !default;
+
+// Sidebar user
+$sidebar-user-padding: 1.5rem 1rem 1rem !default;
+$sidebar-user-background: $white !default;
+$sidebar-user-color: $dark !default;
+
+// Sidebar nav
+$sidebar-nav-background: $white !default;
+
+// Sidebar header
+$sidebar-header-padding: 0.375rem 1.5rem !default;
+$sidebar-header-color: $gray-500 !default;
+$sidebar-header-text-transform: none !default;
+$sidebar-header-font-size: $font-size-sm !default;
+$sidebar-header-font-weight: $font-weight-bold !default;
+
+// Sidebar link
+$sidebar-link-padding: .65rem .75rem !default;
+$sidebar-link-margin: 0 .5rem !default;
+$sidebar-link-border-radius: $border-radius !default;
+$sidebar-link-font-weight: 400 !default;
+$sidebar-link-color: $gray-600 !default;
+$sidebar-link-bg: $sidebar-bg !default;
+$sidebar-link-hover-color: $gray-900 !default;
+$sidebar-link-hover-bg: $white !default;
+$sidebar-link-hover-font-weight: $font-weight-normal !default;
+$sidebar-link-active-color: $gray-900 !default;
+$sidebar-link-active-bg: $gray-200 !default;
+$sidebar-link-active-font-weight: $font-weight-normal !default;
+
+// Sidebar child link
+$sidebar-link-child-padding: .35rem 1.5rem .35rem 2.75rem !default;
+$sidebar-link-child-margin: 0 .5rem !default;
+$sidebar-link-child-font-weight: 400 !default;
+$sidebar-link-child-font-size: 90% !default;
+$sidebar-link-child-color: $gray-600 !default;
+$sidebar-link-child-bg: $white !default;
+$sidebar-link-child-hover-color: $gray-900 !default;
+$sidebar-link-child-hover-bg: $white !default;
+$sidebar-link-child-active-color: $sidebar-link-child-hover-color !default;
+$sidebar-link-child-active-bg: $white !default;
+
+// Sidebar link icon
+$sidebar-link-icon-color: $dark !default;
+$sidebar-link-icon-hover-color: $dark !default;
+$sidebar-link-icon-active-color: $dark !default;
+
+// Sidebar bottom
+$sidebar-bottom-color: $gray-200 !default;
+$sidebar-bottom-bg: darken($sidebar-bg, 2) !default;
+
+// Splash
+$splash-bg: $dark !default;
+$splash-color: $white !default;
+
+// Wrapper
+$wrapper-bg: $dark !default;
+
+// Header
+$header-color: $white !default;
+
+// Font Awesome
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
+
+// Ion Icons
+$ionicons-font-path: "~ionicons/dist/fonts" !default;

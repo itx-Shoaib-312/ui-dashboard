@@ -1,0 +1,7 @@
+@each $color, $value in $theme-colors {
+  @include background-variant(".bg-#{$color}-light", lighten($value, 7.5%));
+}
+
+@each $color, $value in $theme-colors {
+  @include background-variant(".bg-#{$color}-dark", darken($value, 7.5%));
+}

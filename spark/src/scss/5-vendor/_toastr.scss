@@ -1,0 +1,20 @@
+#toast-container > div {
+  opacity: 1;
+  box-shadow: none;
+}
+
+.toast {
+  background-color: $info;
+}
+.toast-success {
+  background-color: $success;
+}
+.toast-error {
+  background-color: $danger;
+}
+.toast-info {
+  background-color: $info;
+}
+.toast-warning {
+  background-color: $warning;
+}

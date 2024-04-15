@@ -1,0 +1,7 @@
+@include media-breakpoint-up(md) {
+  .collapse.collapse-disabled-md {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
